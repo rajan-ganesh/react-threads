@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "user_uuid": "uuid1",
+      "username": "Gabs",
+      "handle": "StephCurry",
+      "bio": "I am learning React",
+      "link": "https://apple.com",
+      "img": "https://i.pinimg.com/736x/43/c3/1a/43c31a920caaa53994392f67f89a937d.jpg",
+      "instagram_url": "https://www.instagram.com/thestradman/feed/?hl=en",
+      "followers": [
+        {
+          "user_uuid": "uuid2"
+        },
+        {
+          "user_uuid": "uuid3"
+        },
+        {
+          "user_uuid": "uuid4"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user_uuid": "uuid2",
+      "username": "Preet",
+      "handle": "Pretzel",
+      "bio": "I am pro at React",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "img": "https://cdn.dribbble.com/userupload/5088020/file/original-4c91b63d161559759611dc75d0e3c573.jpg?resize=752x",
+      "instagram_url": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "followers": [
+        {
+          "user_uuid": "uuid1"
+        },
+        {
+          "user_uuid": "uuid3"
+        },
+        {
+          "user_uuid": "uuid4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "user_uuid": "uuid3",
+      "username": "Prayasu",
+      "handle": "Prxnxsh",
+      "bio": "I luv modi <3",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Kermit_the_Frog.jpg/220px-Kermit_the_Frog.jpg",
+      "instagram_url": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "followers": [
+        {
+          "user_uuid": "uuid2"
+        },
+        {
+          "user_uuid": "uuid1"
+        },
+        {
+          "user_uuid": "uuid4"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "timestamp": "Mon Jan 01 2024 12:44:45 GMT+0530 (India Standard Time)",
+      "thread_from": "uuid1",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello world!",
+      "likes": [
+        {
+          "uuid": "uuid2"
+        },
+        {
+          "uuid": "uuid3"
+        },
+        {
+          "uuid": "uuid1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Mon Jan 01 2024 10:44:45 GMT+0530 (India Standard Time)",
+      "thread_from": "uuid1",
+      "thread_to": "uuid3",
+      "reply_to": 1,
+      "text": "I like Pizza",
+      "likes": [
+        {
+          "uuid": "uuid2"
+        },
+        {
+          "uuid": "uuid1"
+        }
+      ]
+    },
+    {
+      "timestamp": "2024-01-08T19:33:55.844Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 1,
+      "text": "me too!!!!",
+      "likes": [
+        {
+          "uuid": "uuid1"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "timestamp": "2024-01-08T19:34:15.055Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 1,
+      "text": "hello to you too!!!",
+      "likes": [],
+      "id": 4
+    },
+    {
+      "timestamp": "2024-01-08T19:42:50.652Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 1,
+      "text": "Hello world, it is raining today",
+      "likes": [
+        {
+          "uuid": "uuid1"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "timestamp": "2024-01-08T19:43:23.272Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 1,
+      "text": "testing",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2024-01-08T19:56:43.901Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 1,
+      "text": "testing2",
+      "likes": [
+        {
+          "uuid": "uuid1"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "timestamp": "2024-01-08T19:59:28.081Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 1,
+      "text": "i made scrolling look pretty",
+      "likes": [
+        {
+          "uuid": "uuid1"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "timestamp": "2024-01-08T20:05:35.432Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 3,
+      "text": "replying",
+      "likes": [
+        {
+          "uuid": "uuid1"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "timestamp": "2024-01-08T20:20:03.822Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 3,
+      "text": "lmao skrrrt",
+      "likes": [],
+      "id": 10
+    },
+    {
+      "timestamp": "2024-01-08T20:20:15.291Z",
+      "thread_from": "uuid1",
+      "thread_to": "uuid1",
+      "reply_to": 2,
+      "text": "me 2 bud",
+      "likes": [],
+      "id": 11
+    }
+  ]
+}
