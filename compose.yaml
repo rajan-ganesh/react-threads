@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.react
+      target: react-builder
+    ports:
+      - 3002:3002
+    depends_on:
+      - json-server
+
+  json-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.json-server
+      target: json-server-builder
+    ports:
+      - 3000:3000

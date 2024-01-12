@@ -15,6 +15,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-on-new-port": "PORT=3002 react-scripts start",
+    "start-both": "npx json-server --watch db.json & PORT=3002 react-scripts start &",
+    "start-json-server": "npx json-server --watch db.json",
+    "stop": "npm run stop-json-server && npm run stop-react-app",
+    "stop-json-server": "pkill -f 'json-server --watch db.json'",
+    "stop-react-app": "pkill -f 'react-scripts start'",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

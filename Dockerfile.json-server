@@ -1,0 +1,9 @@
+FROM node:alpine as json-server-builder
+
+WORKDIR /app
+
+COPY db.json .
+
+EXPOSE 3000
+
+CMD ["npx", "json-server", "--watch", "db.json"]
